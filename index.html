@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu">
+        <h1 class="menu-title">
+          FIND BEST EVENTS<br />
+          AROUND THE WORLD
+        </h1>
+        <div class="select-wrapper">
+          <select id="country-select" onchange="showSelectedCountry()">
+            <option value="" disabled selected>Choose country ∇</option>
+          </select>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times; </span>
+            <p id="selected-country"></p>
+          </div>
+        </div>
+      </div>
+      <form class="search-input">
+        <label class="" for="search"
+          >Search by first letter:
+          <input type="text" class="search" oninput="searchEvents()" />
+          <img class="search-img" src="images/Vector (1).png" alt="" />
+        </label>
+      </form>
+      <div class="events">
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" src="./images/event1-image.png" alt="" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div class="event1">
+          <img class="event1-image" />
+          <div class="text">
+            <p class="describtion">Eurovision 2021 finals!</p>
+            <p class="date">2021-05-13</p>
+          </div>
+        </div>
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-image" />
+            <div id="modal-text">
+              <p id="modal-description"></p>
+              <p id="modal-date"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="./index.js"></script>
+  </body>
+</html>
